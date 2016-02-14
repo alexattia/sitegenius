@@ -1,0 +1,188 @@
+body {
+  background-color: #fff;
+  color: #515556;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+hr.fat {
+  height: 2px;
+}
+
+hr {
+  height: 1px;
+  color: #df334c;
+  background-color: #df334c;
+  border: none;
+}
+
+.pink {
+  color: #df334c
+}
+
+/* Header */
+
+header {
+  padding: 20px;
+  background-color: #282c30;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: #df334c;
+}
+
+@media (min-width: 768px ) {
+  header {
+      position: relative;
+  }
+
+  .bottom-align {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+  }
+}
+
+.nav {
+  float: right;
+  right:0px;
+}
+
+.nav a {
+  color: #CBCBCB;
+  font-size: 18px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background: none;
+  color: #9a1739;
+}
+
+.nav li.active a {
+  background: none;
+  color: #df334c;
+  border-style: none;
+  border-width: 0px 0px 3px 0px;
+  border-color: #df334c;
+}
+
+.nav li.active a:focus, .nav li.active a:hover {
+  background: none;
+  color: #9a1739;
+  border-color: #9a1739;
+}
+
+.logo-mms {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+#btn-ins{
+  border: 1px solid #fff;
+  margin-left:35px;
+  padding: 0px;
+}
+/* Footer */
+
+footer {
+  padding: 25px;
+  margin-top: 20px;
+  background-color: #282c30;
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: #df334c;
+  color: #CBCBCB;
+}
+
+/* Content */
+
+.jumbotron {
+  background-color: #fff;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.pjumbotron {
+  background-color: #282c30  ;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.poffre {
+  font-size: 25px;
+  color : #df334c;
+  text-align: left;
+}
+
+.cadre_img {
+  height: 150px;
+}
+
+#event-text {
+  font-style: 20px;
+  margin:15px;
+}
+
+#logo-event {
+  margin:30px;
+}
+
+#body-offre{
+  background-color: #fff
+}
+
+#img-bulles {
+  margin-top:30px;
+}
+
+#img-stand {
+  margin-top:50px;
+}
+
+#img-com {
+  margin-bottom: 50px;
+
+}
+
+#offre-text {
+  text-align:left;
+  font-size: 25px;
+  margin-top:50px;
+  margin-bottom: 20px;  
+}
+/* Carousel */
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.item {
+  height: 400px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.carousel-text {
+  background-color: transparent  ;
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+}
